@@ -9,13 +9,13 @@ This file contains in one row the average of each variable for each subject and 
 
 - The <strong>features.txt</strong> file contains the columns names for the <strong>X_[type].txy</strong> files, with more information about the variables discussed in <strong>features_info.txt</strong>
 
-- Both the <strong>test</strong> and <strong>train</strong> type datasets contain 3 files: <strong>subject_[type].txt</strong>, <strong>Y_[type].txt</strong>, and <strong>X_[type].txt</strong>.
+- The following files are available for the <strong>train</strong> and <strong>test</strong> data. Their descriptions are equivalent.
 
-  - <strong>subject_[type].txt</strong>: each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30.
+  - <strong>subject_train.txt</strong>: each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30.
 
-  - <strong>Y_[type].txt</strong>: each row identifies the type of activity being measured for each window sample. Its range is from 1 to 6.
+  - <strong>Y_train.txt</strong>: each row identifies the type of activity being measured for each window sample. Its range is from 1 to 6.
 
-  - <strong>X_[type].txt</strong> contains the data points for each window sample.
+  - <strong>X_train.txt</strong> contains the data points for each window sample.
 
 ### <br>
 
