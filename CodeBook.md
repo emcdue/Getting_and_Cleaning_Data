@@ -7,13 +7,13 @@ This file contains in one row the average of each variable for each subject and 
 ## Variables and Data Files
 - The <strong>activity_labels.txt</strong> file maps the activity ID to a description of the activity.
 
-- The <strong>features.txt</strong> file contains the columns names for the <strong>X_[type].txy</strong> files, with more information about the variables discussed in <strong>features_info.txt</strong>
+- The <strong>features.txt</strong> file contains the columns names for the <strong>X_train.txt</strong> and <strong>X_test.txt</strong> files. More information about the variables could be found in <strong>features_info.txt</strong>
 
 - The following files are available for the <strong>train</strong> and <strong>test</strong> data. Their descriptions are equivalent.
 
   - <strong>subject_train.txt</strong>: each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30.
 
-  - <strong>Y_train.txt</strong>: each row identifies the type of activity being measured for each window sample. Its range is from 1 to 6.
+  - <strong>y_train.txt</strong>: each row identifies the type of activity being measured for each window sample. Its range is from 1 to 6.
 
   - <strong>X_train.txt</strong> contains the data points for each window sample.
 
